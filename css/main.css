@@ -1,0 +1,218 @@
+/***** BASE STYLES *****/
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+.title {
+    width: 350px;
+    float: left;
+}
+.nav-width {
+    width: 850px;
+    float: left;
+}
+
+/****** HEADER ******/
+.main {
+    height: 800px;
+    background-image: url('../img/Full_Background.png'); 
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-main {
+    height: 800px;
+    background-image: url('../img/workspace.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+/* .portfolio-main::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 800px;
+    background-color:rgba(255, 255, 255, 0.3);
+} */
+header h1 { 
+    padding: 65px 0 65px 25px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    color: #bbc085;
+    text-shadow: 1px 1px 20px #ffffff;
+}
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+header h2 {
+    width: 1000px;
+    clear: left;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+} 
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 250px;
+    margin: 0 auto;
+} 
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/****** PROJECT GRID ******/
+#project-grid {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+#project-grid .full-width {
+    padding: 115px 0;
+} 
+#project-grid #container-image {
+    width: 400px;
+    height: 400px;
+    display: table;
+}
+#project-grid #container-image.project-image {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#project-grid #container-image .project-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
+#project-grid h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 250px;
+    margin: 0 auto;
+} 
+#project-grid p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: solid;
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
